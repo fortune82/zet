@@ -42,13 +42,17 @@ header::after {
 }
 
 .logo {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo a {
     font-family: Airbag, serif;
     font-size: 48px;
     text-transform: uppercase;
     color: #e8e8e8;
-    margin-top: 30px;
-    display: flex;
-    justify-content: flex-start;
+    text-decoration: none;
 }
 
 header nav {
@@ -60,54 +64,55 @@ header nav {
     font-weight: 400;
     display: flex;
     justify-content: flex-end;
+    position: relative;
+    z-index: 5;
 }
-
 
 .burgerMenu {
     position: relative;
     left: 18px;
 }
 
-.burger {
+
+.burgerMenu span {
     display: block;
-    background: yellow;
-    transition: all .5s cubic-bezier(.165, .84, .44, 1);
+    margin-bottom: 5px;
+    background: #e8e8e8;
+    transition: all .5s;
     width: 21px;
     height: 1px;
 }
 
-.burger::after,
-.burger::before {
-    content: "";
-    display: block;
-    width: 21px;
-    height: 1px;
-    margin-top: 5px;
-    background: red;
-}
-
-/* .burger {
-    width: 21px;
-    height: 15px;
-    display: flex;
-    flex-direction: column;
+.burgerMenu:hover.burgerMenu span:nth-child(1) {
+    transform: rotate(45deg);
     position: relative;
-    bottom: 2px;
-    left: 18px;
-} */
+    top: 12px;
+    width: 12px;
+}
 
-/* .burger div {
-    width: 21px;
-    height: 3px;
-    margin-top: 3px;
-    background-color: #e8e8e8;
-} */
+.burgerMenu:hover.burgerMenu span:nth-child(2) {
+    transform: rotate(90deg);
+}
+
+.burgerMenu:hover.burgerMenu span:nth-child(3) {
+    transform: rotate(140deg);
+    position: relative;
+    left: 9px;
+    width: 12px;
+}
 
 .menu {
-    display: none;
+    visibility: hidden;
     position: absolute;
     margin: 30px 0 0 20px;
-    transition: 2s;
+    opacity: 0;
+    transition: 0.3s visibility ease-in-out, 0.3s opacity ease-in-out;
+}
+
+.menu.active {
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
 }
 
 .menu li {
