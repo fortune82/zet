@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2020 by original authors @ fontello.com</metadata>
+<defs>
+<font id="sliders" horiz-adv-x="1000" >
+<font-face font-family="sliders" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="laptop" unicode="&#xe800;" d="M1145 139q45-10 75-46t30-81q0-54-38-92t-92-39l-990 0q-54 0-92 39t-38 92q0 46 30 81t75 46q0 8-1 26t0 29l0 469q0 65 45 110t111 46l730 0q65 0 111-46t45-110l0-469q0-10 0-29t-1-26z m-936 524l0-469q0-11 0-29t1-23l50 0 0 468q0 22 16 37t37 16l625 0q21 0 36-16t16-37l0-468 51 0 0 521q0 21-15 37t-36 15l-730 0q-21 0-36-15t-15-37z m729-521l0 468-625 0 0-468 625 0z m182-157q10 0 18 8t8 19-8 18-18 8l-990 0q-10 0-18-8t-8-18 8-19 18-8l990 0z" horiz-adv-x="1250" />
+
+<glyph glyph-name="map" unicode="&#xe801;" d="M53-93q-23 0-38 16t-15 36l0 521q0 21 15 36l235 235q14 14 34 15t35-11l224-179 202 201q25 25 57 10t32-47l0-520q0-21-16-38l-234-233q-14-14-35-15t-35 11l-224 179-201-202q-15-15-36-15z m51 178q152 150 156 152l0 378-156-156 0-374z m215 149l202-162 0 389-208 165 0-389q1-1 3-2t3-1z m410 7l0 374q-153-151-156-154l0-376z" horiz-adv-x="834" />
+
+<glyph glyph-name="heart-empty" unicode="&#xe802;" d="M790 642q70-64 70-156t-70-156l-360-330-360 330q-70 64-70 156t70 156q64 58 152 58t150-58l58-52 56 52q64 58 152 58t152-58z m-54-260q42 40 42 104 0 66-38 100-38 38-102 38-52 0-104-48l-104-92-106 92q-48 48-102 48-64 0-104-38-38-36-38-100 0-66 44-104l306-286z" horiz-adv-x="860" />
+
+<glyph glyph-name="sliders" unicode="&#xf1de;" d="M196 64v-71h-196v71h196z m197 72q14 0 25-11t11-25v-143q0-14-11-25t-25-11h-143q-14 0-25 11t-11 25v143q0 15 11 25t25 11h143z m89 214v-71h-482v71h482z m-357 286v-72h-125v72h125z m732-572v-71h-411v71h411z m-536 643q15 0 26-10t10-26v-142q0-15-10-25t-26-11h-142q-15 0-25 11t-11 25v142q0 15 11 26t25 10h142z m358-286q14 0 25-10t10-25v-143q0-15-10-25t-25-11h-143q-15 0-25 11t-11 25v143q0 14 11 25t25 10h143z m178-71v-71h-125v71h125z m0 286v-72h-482v72h482z" horiz-adv-x="857.1" />
+</font>
+</defs>
+</svg>
