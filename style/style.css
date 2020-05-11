@@ -388,6 +388,12 @@ section {
     height: 900px;
 }
 
+.teamContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
 .team .heading h2,
 .team .heading h4 {
     color: #f2f2f2;
@@ -402,23 +408,39 @@ section {
 }
 
 .teamFace {
-    /* display: flex;
-    justify-content: space-between; */
     width: 272px;
     height: 415px;
     background-color: #f2f2f2;
-    opacity: 0.75
+    opacity: 0.75;
+    margin-top: 85px;
 }
 
-.messenger ul li {
-    margin: 0 auto;
-    list-style: none;
-    display: inline-block;
+.teamFace h2 {
+    margin: 35px 0 0;
+    color: #29323c;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
 
+.teamFace p {
+    margin: 10px 0 0;
+    color: #29323c;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.8;
 }
 
 .messenger ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
     padding-left: 0;
+}
+
+.messenger ul li {
+    list-style: none;
+    margin-left: 5px;
 }
 
 .icon-twitter-circled,
@@ -439,11 +461,10 @@ section {
     margin-left: 0;
 }
 
-
 .icon-linkedin-circled span {
     position: relative;
     bottom: 2px;
-    display: block;
+    display: inline-block;
     width: 22px;
     height: 22px;
     font-size: 16px;
