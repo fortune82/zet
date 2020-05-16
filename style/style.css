@@ -321,7 +321,7 @@ section {
 .gallery ul li {
     display: block;
     height: 200px;
-    width: 300px;
+    width: 320px;
 }
 
 .gallery ul {
@@ -451,36 +451,22 @@ section {
 
 .icon-twitter-circled,
 .icon-linkedin-circled,
-.icon-vimeo,
+.icon-vimeo-circled,
 .icon-dribbble-circled,
-.icon-mail {
+.icon-mail-alt {
     font-size: 25px;
     color: #303132;
 }
 
 .icon-twitter-circled::before,
 .icon-linkedin-circled::before,
-.icon-vimeo::before,
+.icon-vimeo-circled::before,
 .icon-dribbble-circled::before,
-.icon-mail::before {
+.icon-mail-alt::before {
     margin-right: 0;
     margin-left: 0;
 }
 
-.icon-linkedin-circled span {
-    position: relative;
-    bottom: 2px;
-    display: inline-block;
-    width: 22px;
-    height: 22px;
-    font-size: 16px;
-    background-color: #303132;
-    color: #fff;
-    border: 1px solid #303132;
-    border-radius: 50%;
-    font-family: sans-serif;
-    font-weight: bold;
-}
 
 .meet {
     margin-top: 95px;
@@ -532,7 +518,7 @@ section {
 
 .standartPrice .standart:nth-child(2) {
     content: "";
-    display: relative;
+    display: block;
     border-top: 5px solid #485563;
     height: 585px;
     top: -40px;
@@ -668,6 +654,7 @@ form {
     margin-bottom: 25px;
     padding: 0;
     margin-left: 28px;
+    color: #fff;
 }
 
 #name {
@@ -677,6 +664,14 @@ form {
 #message {
     height: 145px;
     resize: none;
+}
+
+#name:focus,
+#email:focus,
+#phone:focus,
+#message:focus {
+    background-color: #f6f6f6;
+    color: black;
 }
 
 label {
@@ -709,4 +704,87 @@ label #message {
 .submit .btn {
     display: flex;
     justify-content: flex-end;
+}
+
+/* ------------------footer--------- */
+
+footer {
+    height: 130px;
+    background-color: #f5f5f5;
+
+}
+
+.footerInf {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logoDown {
+    display: flex;
+    width: 82px;
+    height: 30px;
+    color: #29323c;
+    font-family: 'Airbag';
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+
+footer h2 {
+    width: 219px;
+    height: 14px;
+    color: #29323c;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.35px;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+footer h3 {
+    display: block;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #29323c;
+    width: 115px;
+    margin: 60px 0 0 509px;
+}
+
+
+.messengerDown {
+    display: flex;
+    justify-content: start;
+    margin-left: 0;
+    width: 245px;
+}
+
+.messengerDown ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 240px;
+    margin-left: 5px;
+    margin-top: 60px;
+    height: 14px;
+    color: #29323c;
+    padding: 0;
+}
+
+.messengerDown ul li {
+    list-style: none;
+    margin-left: 5px;
+    margin-top: -10px;
+}
+
+.messengerDown ul li:first-child {
+    margin-left: 25px;
+}
+
+.messengerDown ul li i {
+    font-size: 40px;
+    color: #525961;
 }
